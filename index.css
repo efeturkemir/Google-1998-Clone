@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11rem;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input input {
+  width: 375px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  margin-left: 5px;
+  padding: 2px 4px;
+}
+
+.boxes {
+display: flex;
+flex-grow: inherit;
+
+}
+.boxes .box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 6px;
+  margin: 2px;
+  background-color: aqua;
+}
+.main {
+  margin-top: 1rem;
+  margin-left: 15rem;
+  width: max-content;
+  background-color: rgb(245, 233, 233);
+}
+.boxes .box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 2px;
+  margin: 2px;
+  background-color: rgb(88, 204, 204);
+}
+.boxes .box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 2px;
+  margin: 2px;
+  background-color: rgb(57, 175, 175);
+}
+.box-links {
+  display: flex;
+}
+.box-links button {
+  padding: 2px 4px;
+}
+
+.box-links a {
+  margin-left: 0.5rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  color: rgb(46, 44, 44);
+}
